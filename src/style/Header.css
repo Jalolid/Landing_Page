@@ -1,0 +1,47 @@
+/* Header.css */
+
+header {
+    display: flex; /* Flexbox orqali joylashtirish */
+    justify-content: space-between; /* Joyni teng taqsimlash */
+    align-items: center; /* Vertikal markazga joylash */
+    padding: 10px 20px; /* Ichki bo'shliq */
+    background-color: wheat;
+  }
+  
+  .nav-menu {
+    list-style: none; /* Ro'yxat belgilarini olib tashlash */
+    display: flex; /* Flexbox orqali joylashtirish */
+    gap: 15px; /* Bo'shliq */
+  }
+  
+  .user-info {
+    display: flex; /* Flexbox orqali joylashtirish */
+    align-items: center; /* Vertikal markazga joylash */
+  }
+  
+  .header-profile-image {
+    width: 50px; /* Rasmning kengligi */
+    height: 50px; /* Rasmning balandligi */
+    border-radius: 50%; /* Dumaloq ko'rinish */
+    object-fit: cover; /* Rasmning o'lchamiga mos kelishi */
+    margin-left: 20px; /* Chap tomondan bo'shliq */
+  }
+  
+  .user-name {
+    margin-left: 10px; /* Ism va familiya o'rtasida bo'shliq */
+    font-size: 16px; /* Matn o'lchami */
+    font-weight: bold; /* Matn qalinligi */
+  }
+ .nav-menu li a{
+    color: rgb(212, 156, 156);
+    text-decoration: none;
+    font-size: large;
+    padding: 2%, 20%;
+    border-radius: 5%;
+ }
+ 
+ .nav-menu li a:hover{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(67, 67, 217);
+ }
